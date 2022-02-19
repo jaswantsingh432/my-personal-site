@@ -1,0 +1,203 @@
+*{
+    padding:0;
+    margin: 0;
+    background-color:#CAF0F8;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* this is navigation bar */
+
+.nav-startimg{
+    width: 80px;
+    position: absolute;
+    left:50px;
+    top:10px;
+}
+.nav-img{
+    width: 40%;
+}
+.navbar1{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar2{
+    padding-top: 10px;
+    width: 48%;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/* this to top most intro section */
+
+.topSection{
+    display: flex;
+    font-family: 'Cinzel', serif;
+}
+.topSectionIntro{
+    box-sizing: border-box;
+    width: 50%;
+    height: 80%; 
+    margin: 80px 50px 50px 80px;
+    color: #8A39E1;
+}
+.topSectionIntro h3{
+    margin-bottom: 7px;
+    font-size: 1.5rem;
+}
+.topSectionIntro h1{
+    font-size: 4.5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 7px;
+    background: -webkit-linear-gradient(right,#ff33ff,#DD2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.topSectionIntro h2{
+    font-size: 2rem;
+    margin-bottom: 7px;
+}
+.topSectionIntro .submittop{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 3rem;
+    font-size: 1.1rem;
+}
+.topSectionIntroImage{
+    width: 50%;
+    height: 80%;
+    margin: 80px 50px 50px 100px;
+}
+.topSectionIntroImage img{
+    width: 100%;
+}
+
+/* this is about me section  */
+
+.aboutMeSection{
+    display: flex;
+    
+}
+.aboutMeSectionIntro{
+    width: 50%;
+    height: 80%; 
+    margin: 50px 100px 50px 50px;
+    font-size: 1.5rem;
+}
+.aboutMeSectionIntro h2{
+    background: -webkit-linear-gradient(right,#ff33ff,#DD2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutMeSectionIntro p{
+    color: #8A39E1;
+}
+.aboutMySkillsIntro h2{
+    background: -webkit-linear-gradient(right,#ff33ff,#DD2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutMeSectionImage{
+    margin: 80px 0px 50px 100px;
+    width: 50%;
+}
+.aboutMeSectionImage img{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 40rem;
+}
+
+/* this is my skills section */
+
+.aboutMySkills{
+    display: flex;
+    
+}
+.aboutMySkillsIntro{
+    width: 50%;
+    height: 80%; 
+    margin: 80px 50px 50px 150px;
+    font-size: 1.5rem;
+}
+.aboutMySkillsIntro ul{
+    color: #8A39E1;
+}
+.aboutMySkillsImage{
+    width: 50%;
+    height: 80%;
+    margin: 50px 0px 50px 0px;
+}
+.aboutMySkillsImage img{
+    width: 90%;
+}
+
+/* this is contact me section */
+
+
+.contactMe{
+    display: flex;
+   
+}
+.contactMeImage{
+    width: 50%;
+    height: 80%;
+    margin: 50px 0 50px 50px;
+}
+.contactMeImage img{
+    width: 90%;
+}
+.contactMeIntro{
+    
+    width: 50%;
+    height: 80%; 
+    margin: 50px 50px 50px 50px;
+}
+.contactMeTopSection{
+    text-align:center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+.contactMeTopSection h2,.contactMeTopSection h3{
+    background: -webkit-linear-gradient(right,#ff33ff,#DD2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ContactMeMiddleSection{
+    box-sizing: border-box;    
+}
+.inputname{
+    margin: 10px 0;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.inputname1{
+    margin-right: 25px;
+    
+}
+.inputemail, .inputnumber, .submit{
+    margin: 10px 0;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.submit, .submittop{
+    font-size: 1.2rem;
+    background-image: linear-gradient(to right,#20BDFF,#A5FECB);
+    width: 95%;
+}
+.submit:hover, .submittop:hover{
+    background-image: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);
+    cursor: pointer;
+}
+.submittop{
+    border: 2px solid blue;
+}
+
